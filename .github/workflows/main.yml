@@ -1,0 +1,9 @@
+name: Call Repo-1 Docker Scan Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  call-docker-scan:
+    uses: RAVIKUMAR-DEKKA/Repo-1/.github/workflows/main.yml@main
