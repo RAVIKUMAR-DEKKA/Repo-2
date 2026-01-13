@@ -7,3 +7,5 @@ on:
 jobs:
   call-docker-scan:
     uses: RAVIKUMAR-DEKKA/Repo-1/.github/workflows/main.yml@main
+    with:
+      repo_name: RAVIKUMAR-DEKKA/Repo-2
