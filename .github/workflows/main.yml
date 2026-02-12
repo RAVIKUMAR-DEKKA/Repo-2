@@ -9,6 +9,3 @@ jobs:
     uses: RAVIKUMAR-DEKKA/Repo-1/.github/workflows/main.yml@main
     with:
       repo_name: RAVIKUMAR-DEKKA/Repo-2
-    # Optional: pass secrets if Repo-1 declared them under workflow_call.secrets
-    # secrets:
-    #   DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
